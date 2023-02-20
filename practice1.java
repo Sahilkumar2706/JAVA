@@ -1,0 +1,25 @@
+class pen{
+String color;
+String type;
+void print()
+{
+System.out.println(color);
+System.out.println(type);
+}
+pen()
+{
+System.out.println("constructor called");
+}
+
+}
+class practice1{
+public static void main(String args[])
+{
+pen p1= new pen();
+pen p2 = new pen();
+p1.color="blue";
+p1.type = "gel";
+p1.print();
+
+}
+}
